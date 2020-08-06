@@ -1,38 +1,97 @@
-.App {
+.bg-light {
+  background-color: #6fc7b8 !important;
+}
+
+html {
+  background: url(./assets/images/cool-background.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 0;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+h1 {
+  color: #6fc7b8;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+article {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 80%;
+  margin: 10% 80% 20% 0%;
+  padding: 35px;
+  position: relative;
+}
+
+.col-sm-12 {
+  position: center;
+}
+.col-sm-10 {
+  text-align: left;
+}
+hr {
+  height: 2px;
+  background-color: lightgray;
+  position: center;
+}
+
+#float-left {
+  float: left;
+}
+
+p1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6fc7b8;
+  border-color: #6fc7b8;
+}
+
+.card-body {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  background-color: whitesmoke;
+}
+.centered-link {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-title {
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-float {
+  float: left;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.right-float {
+  float: right;
 }
-
-.App-link {
-  color: #61dafb;
+.heading, .nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
 }
+label {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+h5 {
+    font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+a {
+    font-family: 'Quicksand', sans-serif;
 }
