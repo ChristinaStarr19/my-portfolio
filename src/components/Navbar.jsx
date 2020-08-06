@@ -30,7 +30,7 @@ const Navbar = () => {
 
 {/* <!-- Named and linked Contact Page --> */}
    <li className="nav-item active heading">
-   <Link className="nav-link" to="contact.html">Contact<span className="sr-only">(current)</span></Link>
+   <Link className="nav-link" to="/contact">Contact<span className="sr-only">(current)</span></Link>
   </li>
   
      {/* <!-- Named and linked Resume Page --> */}

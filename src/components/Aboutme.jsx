@@ -24,7 +24,7 @@ const Aboutme = () => {
             <section className="row">
               <section className="col-sm-12 col-md-2">
                 <img className="img-fluid"
-                  src="../assets/images/profile-pic.JPG"
+                  src="\images\profile-pic.JPG"
                   alt="Profile"
                   />
                   
