@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url(./assets/images/cool-background.png) no-repeat center center fixed;
+  background: url("/images/cool-background.png") no-repeat center center fixed;
   background-size: cover;
   height: 0;
 }

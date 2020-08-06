@@ -23,7 +23,7 @@ const Contact = () => {
                 <label for="gitHub link">GitHub Profile:</label><span> </span>
                 <a
                   href="https://github.com/ChristinaStarr19"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="card-link"
                   >https://github.com/ChristinaStarr19</a
                 >
@@ -33,7 +33,7 @@ const Contact = () => {
                 <label for="linkedIn link">LinkedIn Profile:</label> <span> </span>
                 <a
                   href="https://www.linkedin.com/in/christinastarr19/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="card-link"
                   >linkedin.com/in/christinastarr19/</a
                 >
@@ -42,7 +42,7 @@ const Contact = () => {
                 <label for="exampleFormControlInput1">Email:</label> <span> </span>
                 <a
                   href="mailto:christinastarr19@yahoo.com"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="card-link"
                   >ChristinaStarr19@yahoo.com</a
                 >
